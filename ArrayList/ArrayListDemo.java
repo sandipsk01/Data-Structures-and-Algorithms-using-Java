@@ -1,4 +1,4 @@
-package ArrayList;
+package ArrayList;   // stored continuously
 
 import java.util.ArrayList;
 
