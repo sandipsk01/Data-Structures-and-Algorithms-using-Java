@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.Scanner;
 
-public class TakeInputN {
+public class TakeInputN extends LinkedListUse {
 	public static Node<Integer> takeInput(){
         Scanner s= new Scanner(System.in);
         int data = s.nextInt();
