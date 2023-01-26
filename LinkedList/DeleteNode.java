@@ -3,7 +3,6 @@ package LinkedList;
 public class DeleteNode extends TakeInputN {
 	
 	public static Node<Integer> deleteNode(Node<Integer> head, int pos) {
-		// Write your code here.
 		 if(head==null )
             return head;
 		
@@ -27,8 +26,8 @@ public class DeleteNode extends TakeInputN {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Node<Integer> head = takeInput();
-	      head=deleteNode(head, 2);
-	      print(head);
+	        head=deleteNode(head, 2);
+	        print(head);
 	}
 
 }
