@@ -32,6 +32,15 @@ public class StackUsingArray {
           data[topIndex]= elem;
 
     }
+	
+ //    private void doubleCapacity(){
+//      int temp[]= data;
+//      data= new int [2 * temp.length];
+//      for(int i=1;i<temp.length;i++){
+//        data[i]= temp[i];
+//      }
+//
+//     }
 
     public int top() throws StackEmptyException{
       if(topIndex==-1){
