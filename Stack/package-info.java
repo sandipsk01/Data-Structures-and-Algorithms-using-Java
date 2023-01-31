@@ -7,3 +7,4 @@ package Stack;
 // pop() : to remove top most element
 // size(): to check size of stack
 // isEmpty(): to check whether the stack is empty or not
+// stack using array and linked list
