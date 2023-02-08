@@ -14,7 +14,7 @@ public class ArrayListDemo {
 			System.out.println(arrlist.get(i));
 		}
 		
-		// Enhanced for loop / for each loop
+		// Enhanced for loop or for each loop
 		for(int i:arrlist) {    // here i = element of arrlist
 			System.out.println(i);
 		}
